@@ -1,0 +1,7 @@
+We should strart from the scratch.
+1. commits seems like just snapshot 
+2. we can just save whole files in the snapshot without any optimization
+3. we can do optimization based on if file was present in the last commit 
+  - we should first create the whole file from the metadata store in the last snapshot or commit
+  - then we should store the metadata in current commit/snapshot which is the diff from the previous file version
+  - we can take diff blockwise or byte-range-wise etc.
