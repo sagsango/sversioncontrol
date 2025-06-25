@@ -5,3 +5,4 @@ We should strart from the scratch.
   - we should first create the whole file from the metadata store in the last snapshot or commit
   - then we should store the metadata in current commit/snapshot which is the diff from the previous file version
   - we can take diff blockwise or byte-range-wise etc.
+4. read how other virson control have been designed
